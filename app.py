@@ -1,5 +1,13 @@
-#youtube-https://www.youtube.com/watch?v=RIWbalZ7sTo
-#Langchain: PDF Chat App (GUI) | ChatGPT for Your PDF FILES | Step-by-Step Tutorial-prompt Engineering
+'''
+requirements.txt file contents:
+
+langchain==0.0.154
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+streamlit==1.18.1
+faiss-cpu==1.7.4
+streamlit-extras
+'''
 
 import streamlit as st
 from dotenv import load_dotenv
@@ -27,7 +35,7 @@ with st.sidebar:
 
     ''')
     add_vertical_space(5)
-    st.write('Made with ❤️ by [ECAV SCHOOL](ecav.com.co)')
+    st.write('Made with ❤️ by ECAV SCHOOL')
 
 load_dotenv()
 
