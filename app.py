@@ -1,4 +1,6 @@
 '''
+OPENAI_API_KEY= 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
+
 requirements.txt file contents:
 
 langchain==0.0.154
